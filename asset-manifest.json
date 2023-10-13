@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ecommerce/static/css/main.e63aec1b.css",
+    "main.js": "/ecommerce/static/js/main.76ea8bae.js",
+    "static/js/787.cda612ba.chunk.js": "/ecommerce/static/js/787.cda612ba.chunk.js",
+    "static/media/pexels-kai-pilger-996329-min.jpg": "/ecommerce/static/media/pexels-kai-pilger-996329-min.22725912161ddcd7a496.jpg",
+    "static/media/undraw_Fashion_blogging_re_fhi5-removebg.png": "/ecommerce/static/media/undraw_Fashion_blogging_re_fhi5-removebg.6d68eec5501e00896bb5.png",
+    "static/media/free-location-icon-2955-thumb.png": "/ecommerce/static/media/free-location-icon-2955-thumb.eb8073289de8df91ad89.png",
+    "index.html": "/ecommerce/index.html",
+    "main.e63aec1b.css.map": "/ecommerce/static/css/main.e63aec1b.css.map",
+    "main.76ea8bae.js.map": "/ecommerce/static/js/main.76ea8bae.js.map",
+    "787.cda612ba.chunk.js.map": "/ecommerce/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e63aec1b.css",
+    "static/js/main.76ea8bae.js"
+  ]
+}
