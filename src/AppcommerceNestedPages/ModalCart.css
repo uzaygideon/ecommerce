@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Courgette&family=Lobster+Two&family=Nanum+Myeongjo&family=Raleway:wght@300&family=Work+Sans:wght@300&display=swap');
+
+
+body{
+    padding-bottom: 2%;
+}
+.cart-container{
+    width:80%;
+    border-bottom: 1px solid rgb(182, 182, 182);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0% 2% 1%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+}
+
+.itemlist-container{
+    width:80%;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2% 2%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    margin-top: 4%;
+}
+
+
+.cart-sub-container{
+    width:100%;
+    /* border:1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon-removal{
+    width:7%;
+    /* border: 1px solid yellow; */
+    cursor: pointer;
+}
+.cart-sub-container img{
+    width:20%
+}
+.raw-price{
+    width:80%;
+    /* border: 1px solid red; */
+}
+.mui-btn-con{
+    float: right;
+    /* border: 1px solid red; */
+    margin: 2% 2% 0% 0%;
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.h2-float{
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    margin: 2% 0% 0% 2%;
+}
+.increment{
+    display: flex;
+    width:60%;
+    max-height:4vh ;
+    justify-content: space-around;
+    /* background-color: yellow; */
+}

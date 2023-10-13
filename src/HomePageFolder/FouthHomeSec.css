@@ -1,0 +1,31 @@
+.video-container{
+    width:100%;
+    /* border:1px solid red; */
+    padding:2%;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .width-me{
+        width: 100%;
+    }
+    .vd-class{
+        width:80%;
+        height:40vh;
+        object-fit: cover;
+    }
+    }
+    @media screen and (min-width: 600px) {
+        .width-me{
+            width: 45%;
+        }
+        .vd-class{
+            width:45%;
+            height:50vh;
+            object-fit: cover;
+        }
+    }

@@ -1,0 +1,8 @@
+.custom-grid{
+    width: 100%;
+    border:1px solid red;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+    padding: 2%;
+}

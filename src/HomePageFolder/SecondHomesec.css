@@ -1,0 +1,80 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Courgette&family=Lobster+Two&family=Raleway:wght@300&family=Work+Sans:wght@300&display=swap');
+
+
+.flex-box-one{
+width:40%;
+/* border:1px solid red; */
+padding:2.5% ;
+display: flex;
+justify-content: flex-end;
+position: relative;
+}
+
+.img-con{
+    width: 70%;
+
+}
+.flex-box-two{
+    width:40%;
+   /* border:1px solid red; */
+   padding-top:2%;
+   font-family: 'Raleway', sans-serif;
+   color:rgb(124, 122, 122)
+   }
+   .para-one{
+    font-family: 'Lobster Two', cursive;
+    font-size: 4rem;
+    color:RGB(22, 12, 6)
+   }
+   .para-two{
+    color:rgb(197, 111, 64);
+    text-transform: uppercase;
+    margin-top: 3%;
+    font-size: 0.9rem;
+   }
+   .para-three{
+    line-height: 2;
+    margin-top: 3%;
+   }
+.button-3{
+    border-radius: 4px;
+    background-color: rgb(164,102,68);
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 0.82rem;
+    padding: 4% 7% 7%;
+    max-height: 6.5vh;
+    text-transform: uppercase;
+    width: 70%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 13px;
+  }
+  
+  .button-3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .button-3 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button-3:hover span {
+    padding-right: 25px;
+  }
+  
+  .button-3:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+ 

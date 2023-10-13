@@ -1,0 +1,82 @@
+.box{
+    /* background-color: green; */
+    width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ grid-gap: 30px;
+}
+.style-link{
+  
+}
+.commerce-whole-1-alt{
+    width:100%;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 4%;
+    padding-bottom: 3%;
+   
+  }
+  .commerce-img-whole-alt{
+    width: 100%;
+  }
+
+  .customer-second-alt{
+    margin-top: 2%;
+    font-size:0.9rem;
+    text-align: center;
+    line-height: 1.5;
+    color: black;
+  font-weight: 700;
+  
+  }
+  .customer-first-alt{
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 3%;
+    text-align: center;
+    
+  
+  }
+  .customer-first-alt:hover{
+    color: rgb(164,102,68);
+  }
+  .discover-alt{
+    border: 1px solid rgb(164,102,68);
+    width: 70%;
+    padding: 2%;
+    display: flex;
+    color:  rgb(164,102,68);;
+    justify-content: center;
+    align-items: center;
+  position: relative;
+  align-items: center;
+ margin: auto;
+ margin-top: 5%;
+  }
+  .discover-alt:hover .sub-discover-alt{
+    height: 100%;
+    color: white;
+ 
+ }
+ .sub-discover-alt{
+    position: absolute;
+    width: 100%;
+    background-color:  rgb(164,102,68);
+    bottom: 0;
+    left: 0;
+    right: 0;      
+    height: 0;   
+    overflow: hidden;
+    display: flex;
+    padding: auto;
+    align-items: center;
+    transition: all 0.3s ease; 
+    text-decoration: none;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+ }
+ .sub-discover-alt p{
+    margin: auto;
+ }
+ 

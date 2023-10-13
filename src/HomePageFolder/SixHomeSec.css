@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Courgette&family=Lobster+Two&family=Nanum+Myeongjo&family=Raleway:wght@300&family=Work+Sans:wght@300&display=swap');
+.ready-to-wear{
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    color: rgb(63, 62, 62);
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.7rem;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.online-whole{
+    width:100%;
+    /* border:1px solid red; */
+    padding:4%;
+    display:flex;
+   justify-content: center;
+ }
+.commerce-whole-1{
+    width:20%;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 4%;
+    padding-bottom: 3%;
+  }
+  .commerce-img-whole{
+    width: 100%;
+  }
+
+  .customer-second{
+    margin-top: 2%;
+    font-size:0.9rem;
+    text-align: center;
+    line-height: 1.5;
+    color: black;
+  font-weight: 700;
+  
+  }
+  .customer-first{
+  color: black;
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-top: 3%;
+    text-align: center;
+    
+  
+  }
+  .customer-first:hover{
+    color: rgb(164,102,68);
+  }

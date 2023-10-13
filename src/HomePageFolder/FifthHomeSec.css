@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Courgette&family=Lobster+Two&family=Nanum+Myeongjo&family=Raleway:wght@300&family=Work+Sans:wght@300&display=swap');
+
+
+.avatar-whole{
+   width:100%;
+   /* border:1px solid red; */
+   padding:4%;
+   display:flex;
+  justify-content: center;
+}
+.sub-whole-1,.sub-whole-2
+{
+  width:27%;
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 4%;
+}
+.img-whole{
+ 
+  width: 100%;
+  background-color: rgb(138, 138, 131);
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/imagedata-7e7cd.appspot.com/o/NotReal%2Fpexels-andrea-piacquadio-3776128-alt.jpg?alt=media&token=0e33f6dd-d9e0-4b3f-bfef-676f1ebf3a6d');
+  background-size:cover;
+  background-position: 100% 100%;
+  margin: auto;
+  min-height:50vh
+
+}
+
+.img-whole:hover .overlay-whole{
+  background-color: rgba(0, 0, 0,0.7);
+
+} 
+.img-whole:hover .overlay-whole .input-icon{
+  opacity: 1;
+}
+
+.overlay-whole{
+  width: 100%;
+  bottom: 0;
+  min-height: 50vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s
+}
+
+.input-icon{ 
+  color:rgb(164,102,68);
+  opacity: 0;
+  transition: all 0.5s
+}
+.input-icon:hover{
+  color: rgb(212, 209, 209);
+}
+
+.customer{
+  margin-top: 2%;
+  font-size:0.9rem;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.customer-2{
+color: black;
+font-weight: 900;
+font-size: 1.3rem;
+margin-top: 3%;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.customer-2:hover{
+  color: rgb(164,102,68);
+}
+
+
+.discover-new{
+  /* border: 1px solid rgb(164,102,68); */
+  width: 42%;
+  padding: 2% ;
+  display: flex;
+  color:  rgb(164,102,68);;
+  justify-content: space-around;
+  align-items: center;
+position: relative;
+align-items: center;
+margin: auto;
+margin-top: 5%;
+
+}
+.discover:hover .sub-discover{
+  height: 100%;
+  color: white;
+
+}
+.link-style{
+  width:22%;
+ border:1px solid rgb(164,102,68);
+  padding: 3% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(138deg);
+  transition:all 0.5s
+}
+.link-style:hover{
+  background-color:rgb(164,102,68);
+  border: 1px solid transparent;
+}
+.icon-name{
+  transform: rotate(-138deg);
+  color:rgb(164,102,68);
+  transition: color .5s;
+  
+}
+.link-style:hover .icon-name{
+  color: white;
+}
+.testimonial-image{
+  width:100%;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/imagedata-7e7cd.appspot.com/o/NotReal%2Fpexels-andrea-piacquadio-3776128-alt.jpg?alt=media&token=0e33f6dd-d9e0-4b3f-bfef-676f1ebf3a6d');
+  background-size:cover;
+  background-position: 100% 100%;
+  
+}
+
+.testimonial-overlay{
+  width:100%;
+  background-color: rgba(14, 13, 13,0.6);
+  padding-top: 3%;
+  padding-bottom: 5%;
+  font-family: 'Raleway', sans-serif;
+  line-height: 3;
+}
+.testimonial-overlay >p{
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-family: 'Nanum Myeongjo', serif;
+}
+.testimonial-text-con{
+  width:100%;
+  /* border:1px solid blue; */
+  text-align: center;
+}
+.comment{
+  color: white;
+  width:50%;
+  /* border:1px solid green; */
+  margin: auto;
+  line-height: 1.7;
+}
+.author{
+  font-size: 0.8rem;
+  color:rgb(228, 91, 17);
+  text-transform: uppercase;
+}
+.swiperslide{
+  /* border:1px solid red; */
+  padding-bottom:8% ;
+}

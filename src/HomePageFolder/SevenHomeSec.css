@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Courgette&family=Lobster+Two&family=Nanum+Myeongjo&family=Raleway:wght@300&family=Work+Sans:wght@300&display=swap');
+
+.small-contact{
+    width:100%;
+    background-color: white;
+    padding: 4% 0%;
+}
+.map-contact-container{
+    width:85%;
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.map-space{
+    width:50%
+}
+.location-space{
+    width:38%;
+    /* background-color: green; */
+    padding: 3% 0%;
+    font-family: 'Raleway', sans-serif;
+}
+.location-space p{
+    margin-top: 3%;
+    line-height:1.7
+}
+.ready-to-contact{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    color: rgb(31, 30, 30);
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.7rem;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.discover-new-2{
+    border: 1px solid rgba(164,102,68,0.5);
+    border-left: 1px solid transparent;
+    border-right: 1px solid  transparent;
+    width: 70%;
+    padding: 2% ;
+    display: flex;
+    color:  rgb(164,102,68);;
+    justify-content: space-around;
+    align-items: center;
+  position: relative;
+  align-items: center;
+  margin: auto;
+  margin-top: 5%;
+  }
+  a{
+    color: rgb(79,63,79);
+    text-decoration: none;
+  }
+
+  .link-style-2{
+    width:7%;
+   border:1px solid rgb(164,102,68);
+    padding: 2% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(138deg);
+    transition:all 0.5s
+  }
+  .link-style-2:hover{
+    background-color:rgb(164,102,68);
+    border: 1px solid transparent;
+  }
+  .link-style-2:hover .icon-name{
+    color: white;
+  }
